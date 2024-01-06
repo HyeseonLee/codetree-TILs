@@ -1,6 +1,6 @@
 a =2
 b=6
-b=a
+a=b
 
 print(a)
 print(b)
