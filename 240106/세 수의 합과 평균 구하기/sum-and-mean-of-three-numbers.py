@@ -1,4 +1,4 @@
 a,b,c = map(int, input().split())
 
-print(a+b)
-print((a+b)/2)
+print(a+b+c)
+print((a+b+c)/3)
