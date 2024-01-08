@@ -6,5 +6,5 @@ elif a>b:
     print("0", sep=" ")
 elif a==b:
     print("1", sep=" ")
-elif a!=b:
+elif a!==b:
     print("0", sep=" ")
