@@ -7,11 +7,11 @@
 a,b = map(int, input().split())
 c,d = map(int, input().split())
 
-if a>b:
+if a>c:
     print("A")
-elif a<b:
+elif a<c:
     print("B")
-elif a==b:
+elif a==c:
     if b>d:
         print("A")
     else:
