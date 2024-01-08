@@ -8,4 +8,4 @@ else:
 if a==b:
     print("1", sep=" ")
 else:
-    print("0")
+    print("0", sep=" ")
