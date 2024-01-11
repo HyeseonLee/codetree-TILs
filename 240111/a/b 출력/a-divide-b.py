@@ -6,8 +6,9 @@ rest = a
 
 for _ in range(20):
     if a//b > 0:
-        print((rest*10) // b, end="")
-        rest = rest*10 % b
-    else:
         print((rest-b)*10 // b, end="")
         rest = (rest-b)*10 % b
+
+    else:
+        print((rest*10) // b, end="")
+        rest = rest*10 % b
