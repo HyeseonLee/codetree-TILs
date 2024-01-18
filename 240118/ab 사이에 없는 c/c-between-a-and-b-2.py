@@ -1,8 +1,8 @@
 a,b,c = map(int, input().split())
-state = True
+state = False
 for i in range(a,b+1):
     if i%7==0:
-        state =False
+        state =True
 if state==True:
     print("YES")
 else:
