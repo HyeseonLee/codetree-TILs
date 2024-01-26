@@ -6,5 +6,5 @@ for elem in arr:
         break
     c_arr[elem//10] += 1
 
-for i in range(len(arr),0,-1):
-    print(f"{i*10} - {c_arr[i]}")
+for i in range(100,0,-10):
+    print(f"{i} - {c_arr[i//10]}")
