@@ -19,5 +19,5 @@ for _ in range(3):
 for elem in l:
     print(elem, end=" ")
 
-if l[1]>=2:
+if l[0]>=2:
     print('E')
