@@ -9,8 +9,8 @@ res=0
 nam_arr=[0 for _ in range(11)]
 
 while(a>1):
-    a = a//b
     c = a%b
+    a = a//b
     nam_arr[c] += 1
 
 for item in nam_arr:
