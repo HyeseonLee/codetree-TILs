@@ -5,11 +5,11 @@
 
 num = int(input())
 arr = list(map(int, input().split()))
-
-
 ind = num
-while ind >1:
+while ind >=1:
     for value in arr[:ind]:
+        if ind==0:
+            break
         if value == max(arr[:ind]):
             print(arr.index(value)+1, end=" ")
             ind = arr.index(value)
