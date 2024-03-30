@@ -9,8 +9,13 @@ target_arr = []
 
 for i in arr:
     # 중복하지 않는 것
-    if i not in target_arr:
+    count = 0
+    for j in arr:
+        if i==j:
+            count += 1
+    if count == 1:
         target_arr.append(i)
+
 
 if target_arr == []:
     print("-1")
