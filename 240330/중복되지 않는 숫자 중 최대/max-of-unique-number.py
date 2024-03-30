@@ -6,12 +6,11 @@
 num = int(input())
 arr = list(map(int, input().split()))
 target_arr = []
+
 for i in arr:
-    for j in arr:
-        if j==i:
-            pass
-        else:
-            target_arr.append(j)
+    # 중복하지 않는 것
+    if i not in target_arr:
+        target_arr.append(i)
 
 if target_arr == []:
     print("-1")
