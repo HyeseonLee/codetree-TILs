@@ -5,7 +5,7 @@ arr = list(map(int, input().split()))
 min_arr =[]
 max_arr = []
 
-for i in range arr:
+for i in arr:
     if i<500:
         min_arr.append(i)  
     if i>500:
