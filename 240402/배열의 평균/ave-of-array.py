@@ -29,4 +29,4 @@ s_all = 0
 for i in range(n):
     for j in range(m):
         s_all += outer[i][j]
-print(f'{s_all/n*m:.1f}')
+print(f'{s_all/8:.1f}')
