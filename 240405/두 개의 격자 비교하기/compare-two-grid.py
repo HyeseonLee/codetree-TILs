@@ -6,7 +6,7 @@ arr2 = []
 
 for i in range(n*2):
     row = list(map(int, input().split()))
-    if i<4:
+    if i<n:
         arr1.append(row)
     else:
         arr2.append(row)
