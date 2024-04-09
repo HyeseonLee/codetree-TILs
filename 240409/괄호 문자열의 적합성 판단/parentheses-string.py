@@ -11,7 +11,7 @@ for i in range(len(line)):
         # ")"가 들어왔는데 stack이 비어있으면 wrong
         if len(stack)==0:
             print("Nooo")
-            break
+            sys.exit(0)
         stack.pop()
     
 if len(stack)!=0:
