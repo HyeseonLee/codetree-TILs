@@ -17,4 +17,6 @@ for i in range(len(line)):
     if len(stack)!=0:
         print("No")
         break
-    print("Yes")
+    else:
+        print("Yes")
+        break
