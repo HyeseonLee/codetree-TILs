@@ -10,13 +10,11 @@ for i in range(len(line)):
     else:
         # ")"가 들어왔는데 stack이 비어있으면 wrong
         if len(stack)==0:
-            print("No")
+            print("Nooo")
             break
         stack.pop()
     
-    if len(stack)!=0:
-        print("No")
-        break
-    else:
-        print("Yes")
-        break
+if len(stack)!=0:
+    print("No")
+else:
+    print("Yes")
