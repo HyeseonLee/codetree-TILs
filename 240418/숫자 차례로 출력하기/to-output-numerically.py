@@ -1,3 +1,5 @@
+n = int(input())
+
 def p(n):
     if n==0:
         return
@@ -8,7 +10,7 @@ def p2(n):
         return
     print(n, end=" ")
     p2(n-1)
-    
-p(7)
+
+p(n)
 print()
-p2(7)
+p2(n)
