@@ -138,6 +138,7 @@ def get_treasures(table):
             # print(tracking_arrs)
             for y,x in tracking_arrs:
                 table[y][x] = m_arr.popleft()
+            # print("m_arr",m_arr)
 
         # print("0으로 만들고 채운 table")
         # for arr in table:
@@ -186,6 +187,9 @@ for i in range(k):
     # for box in boxes:
     #     print(box)
     chosen_table = boxes[0]["table"] 
+    # 1차 유물 획득 가치 최대 값이 0일 수 있다.
+    if boxes[0]["value"] == 0:
+        break
 
     # 3. 최종 테이블에 대해 얻을 수 있는 유물 얻기(1차부터 다시)
     boxes[0]["value"] = 0
